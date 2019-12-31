@@ -1,6 +1,6 @@
 window.onload = function() {
     const useNodeJS = false;   // if you are not using a node server, set this value to false
-    const defaultLiffId = "... isi!";   // change the default LIFF value if you are not using a node server
+    const defaultLiffId = "1653718640-7ZNp4leY";   // change the default LIFF value if you are not using a node server
 
     // DO NOT CHANGE THIS
     let myLiffId = "";
@@ -105,7 +105,7 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
-            url: 'https://line.me',
+            url: 'https://liff.line.me/1653718640-7ZNp4leY/',
             external: true
         });
     });
